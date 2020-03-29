@@ -6,7 +6,7 @@ namespace BankInterest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("************* PROGRAM CALCULATE BANK INTEREST ********************:");
+            Console.WriteLine("************* PROGRAM CALCULATE BANK INTEREST WITH NO LOOPING KEYWORD********************:");
             Console.WriteLine("Enter total months :");
             int numberMonth = Convert.ToInt32(Console.ReadLine());
 

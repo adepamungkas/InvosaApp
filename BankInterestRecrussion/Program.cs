@@ -6,12 +6,13 @@ namespace BankInterestRecrussion
     {
         public static void Main()
         {
-            Console.WriteLine("Enter number total month :");
+            Console.WriteLine("************* PROGRAM CALCULATE BANK INTEREST WITH RECRUSSION  ********************:");
+            Console.WriteLine("Enter total month :");
             int numberMonth = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter balance :");
+            Console.WriteLine("Enter your balance Rp :");
             double balance = Convert.ToDouble(Console.ReadLine());
-
+            Console.WriteLine("Your balance now Rp :");
             Console.WriteLine(CalculateInterest(numberMonth, balance));
             Console.ReadKey();
         }
