@@ -12,8 +12,8 @@ namespace BankInterestRecrussion
 
             Console.WriteLine("Enter your balance Rp :");
             double balance = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Your balance now Rp :");
-            Console.WriteLine(CalculateInterest(numberMonth, balance));
+            Console.WriteLine("Your balance now is  Rp {0}:", CalculateInterest(numberMonth, balance));
+            
             Console.ReadKey();
         }
 
