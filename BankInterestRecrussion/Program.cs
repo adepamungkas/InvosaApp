@@ -27,7 +27,7 @@ namespace BankInterestRecrussion
         // Returns:
         //     A double-precision floating-point number that is result of total balance 
 
-        static double CalculateInterest(int numberMonth, double balance)
+       private static double CalculateInterest(int numberMonth, double balance)
         {
             if (numberMonth == 0)
             {

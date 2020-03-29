@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankInterestRecrussion", "BankInterestRecrussion\BankInterestRecrussion.csproj", "{E29CE60C-010C-4FFF-AE0D-C5221D43034C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankInterestRecrussion", "BankInterestRecrussion\BankInterestRecrussion.csproj", "{E29CE60C-010C-4FFF-AE0D-C5221D43034C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankInterestLooping", "BankInterestLooping\BankInterestLooping.csproj", "{D62BEC2E-7B3C-4D17-89D6-852A817E0042}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankInterestLooping", "BankInterestLooping\BankInterestLooping.csproj", "{D62BEC2E-7B3C-4D17-89D6-852A817E0042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankInterest", "BankInterest\BankInterest.csproj", "{48BA7CE5-6602-4D14-B4C7-CF8D264336D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D62BEC2E-7B3C-4D17-89D6-852A817E0042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D62BEC2E-7B3C-4D17-89D6-852A817E0042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D62BEC2E-7B3C-4D17-89D6-852A817E0042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BA7CE5-6602-4D14-B4C7-CF8D264336D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BA7CE5-6602-4D14-B4C7-CF8D264336D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BA7CE5-6602-4D14-B4C7-CF8D264336D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BA7CE5-6602-4D14-B4C7-CF8D264336D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
